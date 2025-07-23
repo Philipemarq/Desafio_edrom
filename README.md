@@ -2,7 +2,9 @@ Implementação do Algoritmo A* para Futebol de Robôs Autônomos*
 Este repositório contém uma implementação do algoritmo A* (A-star) para navegação autônoma de robôs em um ambiente de Soccer Cup, onde o robô deve desviar de adversários e marcar gols de forma eficiente.
 
 📌 Visão Geral
+
 O A* é um algoritmo de busca em grafos amplamente utilizado em jogos e robótica para encontrar o caminho mais curto entre dois pontos, considerando obstáculos e custos de movimento. Nesta implementação, o robô:
+
 ✅ Calcula rotas ótimas usando heurística de Manhattan
 ✅ Evita obstáculos (adversários, barreiras)
 ✅ Considera custos de rotação (curvas de 45°, 90° e 180°)
