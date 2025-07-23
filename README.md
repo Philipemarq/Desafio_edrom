@@ -6,8 +6,11 @@ Este repositório contém uma implementação do algoritmo A* (A-star) para nave
 O A* é um algoritmo de busca em grafos amplamente utilizado em jogos e robótica para encontrar o caminho mais curto entre dois pontos, considerando obstáculos e custos de movimento. Nesta implementação, o robô:
 
 ✅ Calcula rotas ótimas usando heurística de Manhattan
+
 ✅ Evita obstáculos (adversários, barreiras)
+
 ✅ Considera custos de rotação (curvas de 45°, 90° e 180°)
+
 ✅ Ajusta estratégia quando está com a posse de bola
 
 ⚙️ Como Funciona?
