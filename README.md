@@ -9,48 +9,38 @@ O A* é um algoritmo de busca em grafos amplamente utilizado em jogos e robótic
 ✅ Ajusta estratégia quando está com a posse de bola
 
 ⚙️ Como Funciona?
+
 📊 Estruturas Principais
-PriorityQueue: Gerencia os nós abertos, priorizando os de menor custo total (f(n) = g(n) + h(n)).
-
-custo_g: Armazena o custo real do caminho desde o início.
-
-custo_f: Armazena o custo total (real + heurística).
-
-veio_de: Usado para reconstruir o caminho final.
+•PriorityQueue: Gerencia os nós abertos, priorizando os de menor custo total (f(n) = g(n) + h(n)).
+•custo_g: Armazena o custo real do caminho desde o início.
+•custo_f: Armazena o custo total (real + heurística).
+•veio_de: Usado para reconstruir o caminho final.
 
 🔍 Heurística (h(n))
 Distância de Manhattan:
-
-python
 heurística = (|x1 - x2| + |y1 - y2|) * 10
-🔄 Custo de Movimento
-Movimento reto (↑↓→←): Custo = 10
 
-Movimento diagonal (↖↗↙↘): Custo = 14 (aproximação de 10√2)
+🔄 Custo de Movimento
+•Movimento reto (↑↓→←): Custo = 10
+•Movimento diagonal (↖↗↙↘): Custo = 14 (aproximação de 10√2)
 
 Custo de rotação:
+  •Curva de 45°: +5
+  •Curva de 90°: +10
+  •Inversão de 180°: +40
 
-Curva de 45°: +5
-
-Curva de 90°: +10
-
-Inversão de 180°: +40
-
-Com a bola: O custo de rotação dobra para movimentos mais cuidadosos.
+• Com a bola: O custo de rotação dobra para movimentos mais cuidadosos.
 
 🚀 Como Usar?
+
 📋 Parâmetros da Função
-python
 def encontrar_caminho(pos_inicial, pos_objetivo, obstaculos, largura_grid, altura_grid, tem_bola=False):
 pos_inicial: Tupla (x, y) da posição inicial.
 
-pos_objetivo: Tupla (x, y) do destino (ex.: gol).
-
-obstaculos: Lista de tuplas [(x1, y1), (x2, y2), ...] representando adversários/barreiras.
-
-largura_grid e altura_grid: Dimensões do campo.
-
-tem_bola: Se True, aplica penalidade maior em curvas.
+• pos_objetivo: Tupla (x, y) do destino (ex.: gol).
+• obstaculos: Lista de tuplas [(x1, y1), (x2, y2), ...] representando adversários/barreiras.
+• largura_grid e altura_grid: Dimensões do campo.
+• tem_bola: Se True, aplica penalidade maior em curvas.
 
 📤 Saída
 Retorna uma lista de tuplas representando o caminho ótimo do início ao objetivo (ou lista vazia se não houver solução).
