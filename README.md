@@ -34,7 +34,7 @@ Curva de 45°: +5
 
 Curva de 90°: +10
 
-Inversão de 180°: +30
+Inversão de 180°: +40
 
 Com a bola: O custo de rotação dobra para movimentos mais cuidadosos.
 
