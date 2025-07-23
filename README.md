@@ -1,4 +1,5 @@
 Implementação do Algoritmo A* para Futebol de Robôs Autônomos*
+
 Este repositório contém uma implementação do algoritmo A* (A-star) para navegação autônoma de robôs em um ambiente de Soccer Cup, onde o robô deve desviar de adversários e marcar gols de forma eficiente.
 
 📌 Visão Geral
@@ -67,8 +68,12 @@ pos_inicial: Tupla (x, y) da posição inicial.
 Retorna uma lista de tuplas representando o caminho ótimo do início ao objetivo (ou lista vazia se não houver solução).
 
 📚 Referências
+
 - **MARTINS, R. F.** et al. *"Implementação do Algoritmo A* em Futebol de Robôs"*. In: SICFEI 2018, Centro Universitário FEI. Disponível em: [https://fei.edu.br/sites/sicfei/2018/cc/SICFEI_2018_paper_61.pdf](https://fei.edu.br/sites/sicfei/2018/cc/SICFEI_2018_paper_61.pdf)
-- Silva, A. G. *"A* Pathfinding para Iniciantes"*. Universidade Federal de Santa Catarina (UFSC), 2014. Disponível em: [https://www.inf.ufsc.br/~alexandre.goncalves.silva/courses/14s2/ine5633/trabalhos/t1/A%20%20%20Pathfinding%20para%20Iniciantes.pdf](https://www.inf.ufsc.br/~alexandre.goncalves.silva/courses/14s2/ine5633/trabalhos/t1/A%20%20%20Pathfinding%20para%20Iniciantes.pdf)
+  
+- Silva, A. G. *"A* Pathfinding para Iniciantes"*. Universidade Federal de Santa Catarina (UFSC), 2014. Disponível em: [https://www.inf.ufsc.br/~alexandre.goncalves.silva/courses/14s2/ine5633/trabalhos/t1/A%20%20%20Pathfinding%20para%20Iniciantes.pdf]
+  
 - [Algoritmo A* no Python - Melhor Caminho - A Estrela - Hashtag Programação](https://www.youtube.com/watch?v=fTtYzHfGlyk)
+  
 - [Criando Labirintos com Python- Hashtag Programação](https://www.youtube.com/watch?v=mk0576JDh4w&t=908s)
 - [Explicação do Algoritmo A* (A Star) - Carlos Mingoto] (https://www.youtube.com/watch?v=o5_mqZKhTvw)
