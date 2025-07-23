@@ -11,6 +11,7 @@ O A* é um algoritmo de busca em grafos amplamente utilizado em jogos e robótic
 ⚙️ Como Funciona?
 
 📊 Estruturas Principais
+
 •PriorityQueue: Gerencia os nós abertos, priorizando os de menor custo total (f(n) = g(n) + h(n)).
 •custo_g: Armazena o custo real do caminho desde o início.
 •custo_f: Armazena o custo total (real + heurística).
